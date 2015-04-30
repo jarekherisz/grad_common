@@ -20,11 +20,7 @@
     }
   ],
   "require": {
-    "zendframework/zendframework": " 2.*"
-  },
-  "autoload": {
-    "psr-0" : {
-      "Weaverryan\\DangerZone" : "src"
-    }
+    "zendframework/zendframework": " 2.*",
+    "doctrine/doctrine-orm-module": "0.*"
   }
 }

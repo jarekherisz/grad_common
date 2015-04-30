@@ -1,0 +1,27 @@
+{
+  "name": "grad/grad-common",
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "grad/grad-common",
+        "version": "dev-master",
+        "source": {
+          "url": "git://github.com/jarekherisz/grad_common.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "autoload": {
+          "psr-0" : {
+            "Grad" : "src"
+          }
+        }
+      }
+    }
+  ],
+  "autoload": {
+    "psr-0" : {
+      "Weaverryan\\DangerZone" : "src"
+    }
+  }
+}

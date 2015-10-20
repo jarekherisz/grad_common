@@ -1,26 +1,21 @@
 {
-  "name": "grad/grad-common",
-  "repositories": [
-    {
-      "type": "package",
-      "package": {
-        "name": "grad/grad-common",
-        "version": "dev-master",
-        "source": {
-          "url": "git://github.com/jarekherisz/grad_common.git",
-          "type": "git",
-          "reference": "master"
+    "name": "grad/grad-common",
+    "description": "grad/grad-common",
+    "license": "MIT",
+    "keywords": ["grad"],
+    "authors": [
+        {
+            "name": "Jarek Herisz",
+            "email": "jarek@herisz.pl"
         }
-      }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Grad\\": "src"
+        }
     }
-  ],
-  "require": {
-    "zendframework/zendframework": " 2.*",
-    "doctrine/doctrine-orm-module": "0.*"
-  },
-  "autoload": {
-    "psr-0" : {
-      "Grad" : "src"
-    }
-  }
 }

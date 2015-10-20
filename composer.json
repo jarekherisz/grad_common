@@ -1,6 +1,6 @@
 {
-    "name": "grad/grad-common",
-    "description": "grad/grad-common",
+    "name": "grad/common",
+    "description": "grad/common",
     "license": "MIT",
     "keywords": ["grad"],
     "authors": [
@@ -10,12 +10,10 @@
         }
     ],
     "require": {},
-    "require-dev": {
-        "phpunit/phpunit": "4.0.*"
-    },
+    "require-dev": {},
     "autoload": {
         "psr-4": {
-            "Grad\\": "src"
+            "Grad\\Common\\": "src"
         }
     }
 }
